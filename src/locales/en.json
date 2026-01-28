@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "hours": "Hours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bluemarine",
+    "subtitle": "Hair Salon",
+    "tagline": "Where every client receives dedication and personalized attention",
+    "cta": "Contact Us"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "At Bluemarine, every client is welcomed with warmth and professionalism. We believe that everyone deserves exclusive time and dedication during their visit.",
+    "paragraph2": "Our team constantly updates their skills with the latest techniques and fashion trends to always offer you the best. Your satisfaction is our priority.",
+    "paragraph3": "We are convinced that hair care is an art that requires passion, expertise, and attention to detail."
+  },
+  "services": {
+    "title": "Our Services",
+    "coloring": {
+      "title": "Coloring and Highlights",
+      "description": "Transform your look with our cutting-edge coloring techniques and customized highlights."
+    },
+    "volumizing": {
+      "title": "Volumizing and Straightening",
+      "description": "Professional treatments to add volume or achieve perfect straightening for your hair."
+    },
+    "cuts": {
+      "title": "Haircuts",
+      "description": "Custom cuts for every need, from current trends to timeless classics."
+    },
+    "care": {
+      "title": "Hair Care",
+      "description": "Nourishing and regenerating treatments for healthy, shiny hair."
+    },
+    "products": {
+      "title": "Professional Products",
+      "description": "Sale of professional products for daily hair care."
+    },
+    "trends": {
+      "title": "Fashion Trends",
+      "description": "Always up-to-date with the latest trends for contemporary styles."
+    }
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "note": "Closed on Sunday and Monday"
+  },
+  "contact": {
+    "title": "Contact and Location",
+    "address": "Address",
+    "phone": "Phone",
+    "parking": "Large parking area nearby",
+    "followUs": "Follow us on Facebook"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "address": "Viale Alessandro Volta 2A, 6830 Chiasso, Switzerland"
+  },
+  "disclaimer": {
+    "title": "Important Notice",
+    "text": "This website is a draft preview. It is not indexed by search engines and may contain errors or incomplete information.",
+    "button": "I understand"
+  }
+}

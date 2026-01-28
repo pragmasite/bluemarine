@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "services": "Services",
+    "hours": "Horaires",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bluemarine",
+    "subtitle": "Salon de Coiffure",
+    "tagline": "Où chaque client reçoit dévouement et attention personnalisée",
+    "cta": "Contactez-nous"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "paragraph1": "Chez Bluemarine, chaque client est accueilli avec chaleur et professionnalisme. Nous croyons que chacun mérite un temps et une dévotion exclusifs lors de sa visite.",
+    "paragraph2": "Notre équipe se forme constamment aux dernières techniques et tendances de la mode pour vous offrir toujours le meilleur. Votre satisfaction est notre priorité.",
+    "paragraph3": "Nous sommes convaincus que le soin des cheveux est un art qui nécessite passion, compétence et attention aux détails."
+  },
+  "services": {
+    "title": "Nos Services",
+    "coloring": {
+      "title": "Colorations et Mèches",
+      "description": "Transformez votre look avec nos techniques de coloration de pointe et mèches personnalisées."
+    },
+    "volumizing": {
+      "title": "Traitements Volume et Lissage",
+      "description": "Traitements professionnels pour donner du volume ou un lissage parfait à vos cheveux."
+    },
+    "cuts": {
+      "title": "Coupes",
+      "description": "Coupes sur mesure pour tous les besoins, des tendances actuelles aux classiques intemporels."
+    },
+    "care": {
+      "title": "Soins Capillaires",
+      "description": "Traitements nourrissants et régénérants pour des cheveux sains et lumineux."
+    },
+    "products": {
+      "title": "Produits Professionnels",
+      "description": "Vente de produits professionnels pour l'entretien quotidien de vos cheveux."
+    },
+    "trends": {
+      "title": "Tendances Mode",
+      "description": "Toujours à jour sur les dernières tendances pour des styles contemporains."
+    }
+  },
+  "hours": {
+    "title": "Heures d'Ouverture",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermé",
+    "note": "Fermé dimanche et lundi"
+  },
+  "contact": {
+    "title": "Contact et Emplacement",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "parking": "Grand parking à proximité",
+    "followUs": "Suivez-nous sur Facebook"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "address": "Viale Alessandro Volta 2A, 6830 Chiasso, Suisse"
+  },
+  "disclaimer": {
+    "title": "Avis Important",
+    "text": "Ce site web est un aperçu de brouillon. Il n'est pas indexé par les moteurs de recherche et peut contenir des erreurs ou des informations incomplètes.",
+    "button": "J'ai compris"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "projectName": "bluemarine",
+  "colors": {
+    "primary": "#1E5F8A",
+    "primaryForeground": "#FFFFFF",
+    "secondary": "#5BA3C6",
+    "secondaryForeground": "#FFFFFF",
+    "accent": "#D4A574",
+    "accentForeground": "#1A1A1A",
+    "background": "#FAFBFC",
+    "foreground": "#1A1A1A",
+    "muted": "#E8EDF2",
+    "mutedForeground": "#5A6B7A",
+    "border": "#D1DAE3"
+  },
+  "typography": {
+    "headingFont": "Playfair Display",
+    "bodyFont": "Inter",
+    "baseFontSize": "16px"
+  },
+  "layout": [
+    {
+      "name": "Header",
+      "description": "Fixed navigation with logo, navigation links, and language switcher. Clean, minimal design with transparent background that becomes solid on scroll."
+    },
+    {
+      "name": "Hero",
+      "description": "Full-width hero section with business name, tagline about professional hair salon services, and a prominent call-to-action button for booking/contact. Elegant background with subtle gradient or pattern."
+    },
+    {
+      "name": "About",
+      "description": "Introduction to Bluemarine salon highlighting their dedication to each customer, professional expertise, and constantly updated techniques. Two-column layout with text and an image placeholder."
+    },
+    {
+      "name": "Services",
+      "description": "Grid layout showcasing all services: coloring and highlights, volumizing and straightening, cuts for all needs and trends, hair care, professional product sales, and fashion updates. Each service in a card with icon."
+    },
+    {
+      "name": "Opening Hours",
+      "description": "Clean display of business hours in a visually appealing format. Highlight current day if applicable. Note: Closed on Sunday and Monday."
+    },
+    {
+      "name": "Location/Contact",
+      "description": "Full address with embedded map showing Viale Alessandro Volta 2A, Chiasso. Phone number prominently displayed. Mention of large parking area nearby. Facebook social link."
+    },
+    {
+      "name": "Footer",
+      "description": "Minimal footer with copyright, quick links, social media icons, and business name."
+    },
+    {
+      "name": "Disclaimer Modal",
+      "description": "Initial modal overlay informing visitors this is a draft preview, not indexed by Google, and may contain errors. Dismiss button to close."
+    }
+  ],
+  "components": [
+    {
+      "name": "NavigationHeader",
+      "purpose": "Fixed top navigation with logo, menu links (About, Services, Hours, Contact), and language selector (IT/DE/FR/EN)"
+    },
+    {
+      "name": "HeroSection",
+      "purpose": "Full-width hero with business name, tagline, and CTA button"
+    },
+    {
+      "name": "AboutSection",
+      "purpose": "Two-column layout introducing the salon's philosophy and commitment to customers"
+    },
+    {
+      "name": "ServiceCard",
+      "purpose": "Individual service display card with icon, title, and brief description"
+    },
+    {
+      "name": "ServicesGrid",
+      "purpose": "Responsive grid container for displaying all service cards"
+    },
+    {
+      "name": "OpeningHoursTable",
+      "purpose": "Styled table or list showing daily opening hours with visual emphasis"
+    },
+    {
+      "name": "ContactSection",
+      "purpose": "Contact information display with address, phone, and social links"
+    },
+    {
+      "name": "MapEmbed",
+      "purpose": "Embedded map showing business location with marker"
+    },
+    {
+      "name": "FooterSection",
+      "purpose": "Site footer with copyright, links, and social icons"
+    },
+    {
+      "name": "DisclaimerModal",
+      "purpose": "Initial popup modal with draft preview disclaimer and dismiss button"
+    },
+    {
+      "name": "LanguageSwitcher",
+      "purpose": "Dropdown or button group for switching between IT, DE, FR, EN language versions"
+    },
+    {
+      "name": "SocialLinks",
+      "purpose": "Social media icon links (Facebook)"
+    },
+    {
+      "name": "Logo",
+      "purpose": "Business logo component - uses provided logo image stored locally in assets"
+    }
+  ],
+  "featureImplementations": [
+    {
+      "feature": "Multi-language Support",
+      "implementation": "Create separate URL routes (/it, /de, /fr, /en) with Italian as default (based on Ticino location - postal code 6830). Store translations in JSON files. Language switcher in header."
+    },
+    {
+      "feature": "Disclaimer Modal",
+      "implementation": "Show modal on first visit with localStorage flag to prevent showing again. Modal contains draft warning, no Google indexing notice, potential errors disclaimer, and dismiss button."
+    },
+    {
+      "feature": "Responsive Design",
+      "implementation": "Mobile-first CSS with breakpoints at 640px (sm), 768px (md), 1024px (lg). Hamburger menu on mobile, full nav on desktop. Stack columns on mobile, grid on larger screens."
+    },
+    {
+      "feature": "Logo Handling",
+      "implementation": "Download logo from provided URL and store in assets directory. Use as header logo and generate favicon from it."
+    },
+    {
+      "feature": "SEO Optimization",
+      "implementation": "Title: 'Bluemarine - Salone di Parrucchiere | Chiasso'. Description summarizing services. Open Graph tags for social sharing. Language tag set to Italian."
+    },
+    {
+      "feature": "Contact Display",
+      "implementation": "No contact form per requirements. Display phone (+41916822882) as clickable tel: link, full address, and Facebook link directly."
+    },
+    {
+      "feature": "Opening Hours Display",
+      "implementation": "Visual table/list showing Tue-Sat hours. Note closure on Sun-Mon. Optionally highlight current day."
+    },
+    {
+      "feature": "Single Page Navigation",
+      "implementation": "Smooth scroll to sections with anchor links. Fixed header with section detection for active state highlighting."
+    }
+  ],
+  "additionalNotes": "This is a hair salon website for Bluemarine located in Chiasso, Switzerland (Ticino region). The design uses deep marine blue (#1E5F8A) as primary color to reflect the 'Bluemarine' name, complemented by lighter blue secondary tones and a warm accent color for contrast. Typography pairs elegant Playfair Display for headings (conveying sophistication) with clean Inter for body text (modern readability). The single-page layout prioritizes fast loading and easy navigation. Default language is Italian due to Ticino location. No gallery section needed as no gallery images are provided in the brief. Emphasis on the salon's key differentiators: warm welcome, dedicated time for each customer, parking availability, and constantly updated techniques."
+}
